@@ -53,10 +53,11 @@ a {
 }
 
 .hero {
-    height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1675495667069-d18d7d78eeb2?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFja2dyb3VuZCUyMGluZm9ybWF0aWN8ZW58MHx8MHx8fDA%3D);
+    height: 64vh;
+    background: radial-gradient(#021836, #021834b8), url(https://images.unsplash.com/photo-1590658093848-f6f0df47b853?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: bottom;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,30 +69,38 @@ a {
 }
 
 .Actuellement {
-    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGVjaHxlbnwwfHwwfHx8MA%3D%3D);
-    background-repeat: no-repeat;
-    background-size: cover;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
+    color: #03224c;
     /* width: 1400px; */
     height: 91px;
+    background: #00357da3;
+    padding: 32px 24px;
 }
 
 .COMPETENCES {
     text-align: -webkit-center;
 
-    .Compétences {
-        margin: 23px;
-    }
+    
+    
 }
+
+
 
 #port {
     justify-self: center;
     margin-bottom: 187px;
+    margin-block: 117px;
+    
+h2{
+    justify-self: center;
+    margin-bottom: 3%;
 }
+
+    }
+
 
 .form {
     justify-self: center;
@@ -99,6 +108,8 @@ a {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    margin: 42px;
+
     
 }
 
@@ -117,16 +128,24 @@ a {
     button {
         margin-bottom: 10px;
         ;
+        
     }
 
     button {
-        background-color: black;
+        background-color: #17a2b8;;
         color: whitesmoke;
         border-radius: 10px;
         height: 50px;
         width: 30%;
+        
+       
+    }
+    a{
+        text-decoration: none;
+        color: white;
     }
 }
+
 
 #textcard {
     padding: 20px;
@@ -202,3 +221,20 @@ footer {
 #case{
     height: 149px
 }
+#apprentissage{
+    font-size: 23px;
+    margin-bottom: 38px;
+}
+#cours{
+    font-size: larger;
+}
+.Compétences {
+    margin-bottom: 102px;
+   
+}
+#skill{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 86px;
+}
+@media only screen and (max-width: 600px)
